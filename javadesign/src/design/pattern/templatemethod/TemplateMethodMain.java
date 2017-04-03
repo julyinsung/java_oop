@@ -3,22 +3,22 @@ package design.pattern.templatemethod;
 public class TemplateMethodMain {
 
 	/**
-	 * http://guslabview.tistory.com/115 ë¥¼ ì°¸ì¡°í•œë‹¤.
-	 * ê³µí†µì²˜ë¦¬ë¶€ë¶„ì„ ì¶”ìƒí´ëž˜ìŠ¤(Animal)ì— ë‘ê³  
-	 * ë³€ê²½ë˜ëŠ” ë¶€ë¶„ì€ ì¶”ìƒí´ëž˜ìŠ¤(Animal)ì˜ ì¶”ìƒë©”ì†Œë“œ(sound)ë¥¼ ìƒì†ë°›ì•„ì„œ êµ¬í˜„í•˜ë„ë¡ ê°•ì œí•œë‹¤.
+	 * http://guslabview.tistory.com/115 ¸¦ ÂüÁ¶ÇÑ´Ù.
+	 * °øÅëÃ³¸®ºÎºÐÀ» Ãß»óÅ¬·¡½º(Animal)¿¡ µÎ°í 
+	 * º¯°æµÇ´Â ºÎºÐÀº Ãß»óÅ¬·¡½º(Animal)ÀÇ Ãß»ó¸Þ¼Òµå(sound)¸¦ »ó¼Ó¹Þ¾Æ¼­ ±¸ÇöÇÏµµ·Ï °­Á¦ÇÑ´Ù.
 	 * 
-	 * ì¶”ìƒí´ëž˜ìŠ¤ì— ìƒì„±ìžë¥¼ ë§Œë“¤ì–´ ì„œë¸Œ í´ëž˜ìŠ¤ì—ì„œ ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤.
-	 * ì´ë•Œ ì¶”ìƒí´ëž˜ìŠ¤ì˜ í´ëž˜ìŠ¤ë³€ìˆ˜ëŠ” privateë¡œ ì§€ì •í•˜ì—¬ì•¼ ë‹¤ë¥¸ í´ëž˜ìŠ¤ì—ì„œ ë³€ê²½í•  ìˆ˜ ì—†ë‹¤.
-	 * dfsdfdsfsdsfsdfsdf
- * @param args
+	 * Ãß»óÅ¬·¡½º¿¡ »ý¼ºÀÚ¸¦ ¸¸µé¾î ¼­ºê Å¬·¡½º¿¡¼­ Á¢±ÙÇÒ ¼ö ÀÖ´Ù.
+	 * ÀÌ¶§ Ãß»óÅ¬·¡½ºÀÇ Å¬·¡½ºº¯¼ö´Â private·Î ÁöÁ¤ÇÏ¿©¾ß ´Ù¸¥ Å¬·¡½º¿¡¼­ º¯°æÇÒ ¼ö ¾ø´Ù.
+	 * 
+	 * @param args
 	 */
 	public static void main(String[] args) {
 		
-		// ì¶”ìƒí´ëž˜ìŠ¤ì— ìƒì„±ìžë¥¼ ë§Œë“¤ì–´ ì„œë¸Œ í´ëž˜ìŠ¤ì—ì„œ ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤.
+		// Ãß»óÅ¬·¡½º¿¡ »ý¼ºÀÚ¸¦ ¸¸µé¾î ¼­ºê Å¬·¡½º¿¡¼­ Á¢±ÙÇÒ ¼ö ÀÖ´Ù.
 		Animal t = new Tiger("Tiger");
 		t.info();
 		
-		//ì¶”ìƒí´ëž˜ìŠ¤ì˜ í´ëž˜ìŠ¤ë³€ìˆ˜ì˜ ì ‘ê·¼ìžë¥¼ privateë¡œ í•´ì•¼ ì ‘ê·¼ì´ ë¶ˆê°€ëŠ¥ í•˜ë‹¤.
+		//Ãß»óÅ¬·¡½ºÀÇ Å¬·¡½ºº¯¼öÀÇ Á¢±ÙÀÚ¸¦ private·Î ÇØ¾ß Á¢±ÙÀÌ ºÒ°¡´É ÇÏ´Ù.
 		//t.name = "tiger";
 		
 		Animal d = new Dog();
