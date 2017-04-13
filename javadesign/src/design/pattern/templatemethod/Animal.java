@@ -15,5 +15,9 @@ public abstract class Animal {
 		System.out.println("Sound:"+sound());
 	}
 
+	/**
+	 * 상속받은 클래스에서 구현한다.
+	 * @return
+	 */
 	abstract protected String sound();
 }
