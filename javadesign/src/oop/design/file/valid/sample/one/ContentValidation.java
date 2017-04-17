@@ -1,4 +1,4 @@
-package oop.design.sample;
+package oop.design.file.valid.sample.one;
 
 import java.util.Arrays;
 

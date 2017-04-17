@@ -1,4 +1,4 @@
-package oop.design.sample;
+package oop.design.file.valid.sample.one;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;
@@ -26,7 +26,7 @@ public abstract class Files {
 		this.footerColumn = footerColumn;
 	}
 	
-	List<String> fileList(){
+	public List<String> fileList(){
 		System.out.println("folder path: "+folderPath);
 		List<String> fileList = new ArrayList<String>();
 		fileList.add("file1");

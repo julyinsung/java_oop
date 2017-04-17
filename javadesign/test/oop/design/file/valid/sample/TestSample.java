@@ -1,9 +1,12 @@
-package oop.design.sample;
+package oop.design.file.valid.sample;
 
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 
 import org.junit.Test;
+
+import oop.design.file.valid.sample.one.Files;
+import oop.design.file.valid.sample.one.JoinFile;
 
 public class TestSample {
 
