@@ -6,6 +6,14 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 파일을 핸들링 하는 추상 클래스를 생성.
+ * 파일리스트, read 파일, 파일 validation을 주 목적으로 함.
+ * 
+ * 하지만 클래스 다이어그램에서 보듯이 조금 지저분해 보이고 변경 가능성이 있는 것을 분리 할 예정.
+ *  
+ * @author july
+ */
 public abstract class Files {
 
 	private String folderPath;
