@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ÆÄÀÏÀ» ÇÚµé¸µ ÇÏ´Â Ãß»ó Å¬·¡½º¸¦ »ý¼º.
- * ÆÄÀÏ¸®½ºÆ®, read ÆÄÀÏ, ÆÄÀÏ validationÀ» ÁÖ ¸ñÀûÀ¸·Î ÇÔ.
+ * íŒŒì¼ì„ í•¸ë“¤ë§ í•˜ëŠ” ì¶”ìƒ í´ëž˜ìŠ¤ë¥¼ ìƒì„±.
+ * íŒŒì¼ë¦¬ìŠ¤íŠ¸, read íŒŒì¼, íŒŒì¼ validationì„ ì£¼ ëª©ì ìœ¼ë¡œ í•¨.
  * 
- * ÇÏÁö¸¸ Å¬·¡½º ´ÙÀÌ¾î±×·¥¿¡¼­ º¸µíÀÌ Á¶±Ý ÁöÀúºÐÇØ º¸ÀÌ°í º¯°æ °¡´É¼ºÀÌ ÀÖ´Â °ÍÀ» ºÐ¸® ÇÒ ¿¹Á¤.
+ * í•˜ì§€ë§Œ í´ëž˜ìŠ¤ ë‹¤ì´ì–´ê·¸ëž¨ì—ì„œ ë³´ë“¯ì´ ì¡°ê¸ˆ ì§€ì €ë¶„í•´ ë³´ì´ê³  ë³€ê²½ ê°€ëŠ¥ì„±ì´ ìžˆëŠ” ê²ƒì„ ë¶„ë¦¬ í•  ì˜ˆì •.
  *  
  * @author july
  */

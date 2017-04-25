@@ -4,11 +4,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- *  µî·ÏÆÄÀÏ¿¡ ´ëÇÑ Á¤º¸¸¦ ¼³Á¤ÇÑ´Ù.
- *  »ý¼ºÀÚ¿¡¼­ FileInfoÅ¬·¡½º¸¦ »ý¼ºÇÏ¿© °øÅëÀ¸·Î ¾²ÀÏ °ªµéÀ» ÀúÀåÇÑ´Ù.
- *  Æ¯È÷ enumÀ¸·Î ¼³Á¤ÇÑ Á¤º¸´Â mapÀ¸·Î º¯È¯ÇÏ¿© FileInfoÅ¬·¡½º¿¡ ÀúÀåÇÑ´Ù.
- *  (mapÀ¸·Î º¯È¯ÀÌÀ¯´Â FileInfoÅ¬·¡½º°¡ Á¾¼ÓµÇÁö ¾Êµµ·Ï ÇÏ±âÀ§ÇÔÀÌ´Ù. 
- *  ¸¸ÀÏ mapÀ¸·Î º¯È¯ÇÏÁö ¾ÊÀ¸¸é JoinFileÅ¬·¡½ºÀÇ enumÅ¸ÀÔÀ¸·Î Á¾¼ÓµÈ´Ù.)
+ *  ë“±ë¡íŒŒì¼ì— ëŒ€í•œ ì •ë³´ë¥¼ ì„¤ì •í•œë‹¤.
+ *  ìƒì„±ìžì—ì„œ FileInfoí´ëž˜ìŠ¤ë¥¼ ìƒì„±í•˜ì—¬ ê³µí†µìœ¼ë¡œ ì“°ì¼ ê°’ë“¤ì„ ì €ìž¥í•œë‹¤.
+ *  íŠ¹ížˆ enumìœ¼ë¡œ ì„¤ì •í•œ ì •ë³´ëŠ” mapìœ¼ë¡œ ë³€í™˜í•˜ì—¬ FileInfoí´ëž˜ìŠ¤ì— ì €ìž¥í•œë‹¤.
+ *  (mapìœ¼ë¡œ ë³€í™˜ì´ìœ ëŠ” FileInfoí´ëž˜ìŠ¤ê°€ ì¢…ì†ë˜ì§€ ì•Šë„ë¡ í•˜ê¸°ìœ„í•¨ì´ë‹¤. 
+ *  ë§Œì¼ mapìœ¼ë¡œ ë³€í™˜í•˜ì§€ ì•Šìœ¼ë©´ JoinFileí´ëž˜ìŠ¤ì˜ enumíƒ€ìž…ìœ¼ë¡œ ì¢…ì†ëœë‹¤.)
  *  
  * @author july
  *

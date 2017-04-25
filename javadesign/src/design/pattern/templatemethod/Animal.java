@@ -16,7 +16,7 @@ public abstract class Animal {
 	}
 
 	/**
-	 * »ó¼Ó¹ŞÀº Å¬·¡½º¿¡¼­ ±¸ÇöÇÑ´Ù.
+	 * ìƒì†ë°›ì€ í´ë˜ìŠ¤ì—ì„œ êµ¬í˜„í•œë‹¤.
 	 * @return
 	 */
 	abstract protected String sound();

@@ -3,7 +3,7 @@ package oop.design.file.valid.sample.two;
 import java.util.Map;
 
 /**
- * ÆÄÀÏÀÇ ½ºÆÑÁ¤º¸¹× »óÅÂÁ¤º¸¸¦ ´ã´Â´Ù.
+ * íŒŒì¼ì˜ ìŠ¤íŒ©ì •ë³´ë° ìƒíƒœì •ë³´ë¥¼ ë‹´ëŠ”ë‹¤.
  * @author july
  *
  */
