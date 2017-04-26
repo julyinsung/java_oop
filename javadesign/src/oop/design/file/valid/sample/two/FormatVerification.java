@@ -3,7 +3,7 @@ package oop.design.file.valid.sample.two;
 import java.util.Collection;
 import java.util.List;
 
-public class FormatValidation extends Validation{
+public class FormatVerification extends FileVerification{
 
 	@Override
 	boolean check(Files files) {

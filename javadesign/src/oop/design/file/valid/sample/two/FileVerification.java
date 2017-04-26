@@ -2,7 +2,7 @@ package oop.design.file.valid.sample.two;
 
 import java.util.Collection;
 
-public abstract class Validation {
+public abstract class FileVerification {
 
 	abstract boolean check(Files files);
 	

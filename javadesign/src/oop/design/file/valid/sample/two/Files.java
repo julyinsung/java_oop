@@ -9,10 +9,10 @@ import java.util.List;
 public abstract class Files {
 
 	private List<String> readAllLines;
-	private Validation validation; 
+	private FileVerification validation; 
 	private FileInfo fileInfo;
 	
-	public List<String> fileList(){
+	public List<String> getFileList(){
 		List<String> fileList = new ArrayList<String>();
 		fileList.add("file1");
 		fileList.add("file2");
@@ -26,12 +26,12 @@ public abstract class Files {
 	}
 	
 	private boolean formatValid(){
-		validation = new FormatValidation();
+		validation = new FormatVerification();
 		return validation.check(this);
 	}
 	
 	private boolean contentValid(){
-		validation = new ContentValidation();
+		validation = new ContentVerification();
 		return validation.check(this);
 	}
 

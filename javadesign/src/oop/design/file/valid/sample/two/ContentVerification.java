@@ -1,6 +1,6 @@
 package oop.design.file.valid.sample.two;
 
-public class ContentValidation extends Validation{
+public class ContentVerification extends FileVerification{
 
 	@Override
 	boolean check(Files files) {

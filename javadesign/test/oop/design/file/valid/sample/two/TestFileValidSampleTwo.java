@@ -8,13 +8,18 @@ public class TestFileValidSampleTwo {
 
 	@Test
 	public void test() {
-		String filePath = "C:\\Users\\july\\Documents\\project\\Thing_Plug\\4.»êÃâ¹°\\ÃÖÁ¾\\ccbs\\register\\backup\\20170201\\CC01_IF20170131_0003_REQ";
+		//String filePath = "C:\\Users\\july\\Documents\\project\\Thing_Plug\\4.ï¿½ï¿½ï¿½â¹°\\ï¿½ï¿½ï¿½ï¿½\\ccbs\\register\\backup\\20170201\\CC01_IF20170131_0003_REQ";
+		//String filePath = "/CC01_IF20170131_0003_REQ";
+		
+		String filePath = this.getClass().getResource("/CC01_IF20170131_0003_REQ").getPath();
+		filePath = filePath.substring(1, filePath.length());
 		
 		Files join = new JoinFile();
-		join.fileList();
+		join.getFileList();
 		join.processFile(filePath);
 		
 		//System.out.println(Arrays.toString(join.getFileInfo().getHeader()));
+		// 5000ë¼ì¸ì¤‘ì— 4998ë¼ì¸ì„ ì¶œë ¥í•œë‹¤.
 		System.out.println(Arrays.deepToString(join.getFileInfo().getBody()[4998]));
 	}
 }
