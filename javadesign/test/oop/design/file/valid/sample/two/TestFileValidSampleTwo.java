@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
+import oop.design.file.valid.sample.two.Files;
+import oop.design.file.valid.sample.two.JoinFile;
+
 public class TestFileValidSampleTwo {
 
 	@Test
